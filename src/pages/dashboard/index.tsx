@@ -1,6 +1,8 @@
 import { Flex } from "@chakra-ui/react";
 
 import SidebarComp from "./views/Sidebar";
+import ContentComp from "./views/Content";
+import NavbarComp from "./views/Navbar";
 
 const DashboardPage = () => {
   return (
@@ -22,7 +24,8 @@ const DashboardPage = () => {
       >
         <SidebarComp />
       </Flex>
-      
+      <ContentComp />
+      <NavbarComp />
     </Flex>
   );
 };

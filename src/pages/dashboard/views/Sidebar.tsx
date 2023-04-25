@@ -135,8 +135,8 @@ const SidebarComp = () => {
             </Item>
           ))}
         </List>
-        <Title>OTHERS 2</Title>
-        <List>
+        <Title display={{ base: "none", md: "flex" }}>OTHERS 2</Title>
+        <List display={{ base: "none", md: "flex" }}>
           {thirdSet.map(({ icon, label }) => (
             <Item key={label}>
               {icon}
@@ -149,7 +149,8 @@ const SidebarComp = () => {
         align={"center"}
         gap={2.5}
         cursor={"pointer"}
-        marginBottom={"60px"}
+        marginBottom={"40px"}
+        marginTop={"20px"}
         paddingRight={"1rem"}
         fontSize={14}
         justify={"space-between"}
@@ -163,7 +164,7 @@ const SidebarComp = () => {
             height={25}
             rounded={"full"}
           />
-          <Text>Blessing Daniels</Text>
+          <Text fontSize={{ base: "12px", lg: "14px" }}>Blessing Daniels</Text>
         </Flex>
         <MoreIcon />
       </Flex>
