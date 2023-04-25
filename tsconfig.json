@@ -22,9 +22,9 @@
     /* Path imports */
     "baseUrl": "src",
     "paths": {
-      "@/pages/*": ["pages/*"],
-      "@/components/*": ["components/*"],
-      "@/customTypes/*": ["customtypes/*"],
+      "@pages/*": ["pages/*"],
+      "@components/*": ["components/*"],
+      "@customTypes/*": ["customtypes/*"],
     }
   },
   "include": ["src"],
